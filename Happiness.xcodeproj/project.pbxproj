@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3EAFD8BB1A89BB1C0034263F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFD8BA1A89BB1C0034263F /* AppDelegate.swift */; };
-		3EAFD8BD1A89BB1C0034263F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFD8BC1A89BB1C0034263F /* ViewController.swift */; };
-		3EAFD8C01A89BB1C0034263F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFD8BE1A89BB1C0034263F /* Main.storyboard */; };
 		3EAFD8C21A89BB1C0034263F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFD8C11A89BB1C0034263F /* Images.xcassets */; };
 		3EAFD8C51A89BB1C0034263F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFD8C31A89BB1C0034263F /* LaunchScreen.xib */; };
 		3EAFD8D11A89BB1C0034263F /* HappinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFD8D01A89BB1C0034263F /* HappinessTests.swift */; };
+		3EAFD8DB1A89BB7B0034263F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFD8DA1A89BB7B0034263F /* Main.storyboard */; };
+		3EAFD8DD1A89BBD60034263F /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFD8DC1A89BBD60034263F /* HappinessViewController.swift */; };
+		3EAFD8DF1A89BE000034263F /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFD8DE1A89BE000034263F /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		3EAFD8B51A89BB1C0034263F /* Happiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAFD8B91A89BB1C0034263F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EAFD8BA1A89BB1C0034263F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EAFD8BC1A89BB1C0034263F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3EAFD8BF1A89BB1C0034263F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EAFD8C11A89BB1C0034263F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3EAFD8C41A89BB1C0034263F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3EAFD8CA1A89BB1C0034263F /* HappinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAFD8CF1A89BB1C0034263F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EAFD8D01A89BB1C0034263F /* HappinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappinessTests.swift; sourceTree = "<group>"; };
+		3EAFD8DA1A89BB7B0034263F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3EAFD8DC1A89BBD60034263F /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		3EAFD8DE1A89BE000034263F /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,9 @@
 		3EAFD8B71A89BB1C0034263F /* Happiness */ = {
 			isa = PBXGroup;
 			children = (
-				3EAFD8BA1A89BB1C0034263F /* AppDelegate.swift */,
-				3EAFD8BC1A89BB1C0034263F /* ViewController.swift */,
-				3EAFD8BE1A89BB1C0034263F /* Main.storyboard */,
-				3EAFD8C11A89BB1C0034263F /* Images.xcassets */,
-				3EAFD8C31A89BB1C0034263F /* LaunchScreen.xib */,
+				3EAFD8DA1A89BB7B0034263F /* Main.storyboard */,
+				3EAFD8DE1A89BE000034263F /* FaceView.swift */,
+				3EAFD8DC1A89BBD60034263F /* HappinessViewController.swift */,
 				3EAFD8B81A89BB1C0034263F /* Supporting Files */,
 			);
 			path = Happiness;
@@ -90,6 +90,9 @@
 		3EAFD8B81A89BB1C0034263F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3EAFD8C31A89BB1C0034263F /* LaunchScreen.xib */,
+				3EAFD8C11A89BB1C0034263F /* Images.xcassets */,
+				3EAFD8BA1A89BB1C0034263F /* AppDelegate.swift */,
 				3EAFD8B91A89BB1C0034263F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EAFD8C01A89BB1C0034263F /* Main.storyboard in Resources */,
 				3EAFD8C51A89BB1C0034263F /* LaunchScreen.xib in Resources */,
 				3EAFD8C21A89BB1C0034263F /* Images.xcassets in Resources */,
+				3EAFD8DB1A89BB7B0034263F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EAFD8BD1A89BB1C0034263F /* ViewController.swift in Sources */,
+				3EAFD8DD1A89BBD60034263F /* HappinessViewController.swift in Sources */,
 				3EAFD8BB1A89BB1C0034263F /* AppDelegate.swift in Sources */,
+				3EAFD8DF1A89BE000034263F /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3EAFD8BE1A89BB1C0034263F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EAFD8BF1A89BB1C0034263F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3EAFD8C31A89BB1C0034263F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
